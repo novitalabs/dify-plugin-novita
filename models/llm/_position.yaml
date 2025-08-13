@@ -14,6 +14,10 @@
 - zai-org/glm-4.5v
 - zai-org/glm-4.5
 
+# Thudm Models
+- thudm/glm-4.1v-9b-thinking
+- thudm/glm-4-32b-0414
+
 # Openai Models
 - openai/gpt-oss-120b
 - openai/gpt-oss-20b
@@ -43,10 +47,6 @@
 
 # Minimaxai Models
 - minimaxai/minimax-m1-80k
-
-# Thudm Models
-- thudm/glm-4.1v-9b-thinking
-- thudm/glm-4-32b-0414
 
 # Meta-Llama Models
 - meta-llama/llama-4-maverick-17b-128e-instruct-fp8
