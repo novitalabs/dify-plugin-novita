@@ -10,4 +10,4 @@ After installation, you need to get API keys from [Novita AI](https://novita.ai/
 ![](_assets/novita-01.png)
 
 
-Source code of this plugin: [https://github.com/jasonhp/dify-plugin-novita](https://github.com/jasonhp/dify-plugin-novita)
+Source code of this plugin: [https://github.com/novitalabs/dify-plugin-novita](https://github.com/novitalabs/dify-plugin-novita)
