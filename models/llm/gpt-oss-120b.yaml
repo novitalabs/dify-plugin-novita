@@ -4,8 +4,11 @@ label:
   en_US: OpenAI GPT OSS 120B
 model_type: llm
 features:
+  - multi-tool-call
+  - stream-tool-call
   - agent-thought
   - structured-output
+  - tool-call
 model_properties:
   mode: chat
   context_size: 131072

@@ -1,4 +1,5 @@
 # Deepseek Models
+- deepseek/deepseek-v3.1
 - deepseek/deepseek-v3-0324
 - deepseek/deepseek-r1-0528
 - deepseek/deepseek-r1-0528-qwen3-8b
@@ -10,17 +11,13 @@
 - deepseek/deepseek-r1-distill-qwen-32b
 - deepseek/deepseek-r1-distill-llama-70b
 
-# Zai-Org Models
-- zai-org/glm-4.5v
-- zai-org/glm-4.5
-
-# Thudm Models
-- thudm/glm-4.1v-9b-thinking
-- thudm/glm-4-32b-0414
-
 # Openai Models
 - openai/gpt-oss-120b
 - openai/gpt-oss-20b
+
+# Zai-Org Models
+- zai-org/glm-4.5v
+- zai-org/glm-4.5
 
 # Qwen Models
 - qwen/qwen3-coder-480b-a35b-instruct
@@ -35,6 +32,9 @@
 - qwen/qwen3-4b-fp8
 - qwen/qwen2.5-7b-instruct
 
+# Baichuan Models
+- baichuan/baichuan-m2-32b
+
 # Moonshotai Models
 - moonshotai/kimi-k2-instruct
 
@@ -47,6 +47,10 @@
 
 # Minimaxai Models
 - minimaxai/minimax-m1-80k
+
+# Thudm Models
+- thudm/glm-4.1v-9b-thinking
+- thudm/glm-4-32b-0414
 
 # Meta-Llama Models
 - meta-llama/llama-4-maverick-17b-128e-instruct-fp8

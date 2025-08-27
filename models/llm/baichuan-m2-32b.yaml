@@ -1,16 +1,13 @@
-model: thudm/glm-4-32b-0414
+model: baichuan/baichuan-m2-32b
 label:
-  zh_Hans: GLM-4-32B-0414
-  en_US: GLM-4-32B-0414
+  zh_Hans: BaiChuan M2 32B
+  en_US: BaiChuan M2 32B
 model_type: llm
 features:
-  - multi-tool-call
-  - stream-tool-call
-  - tool-call
   - structured-output
 model_properties:
   mode: chat
-  context_size: 32000
+  context_size: 131072
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -38,7 +35,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.0055'
-  output: '0.0166'
+  input: '0.0007'
+  output: '0.0007'
   unit: '0.0001'
   currency: CNY

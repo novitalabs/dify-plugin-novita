@@ -1,7 +1,7 @@
-model: thudm/glm-4-32b-0414
+model: deepseek/deepseek-v3.1
 label:
-  zh_Hans: GLM-4-32B-0414
-  en_US: GLM-4-32B-0414
+  zh_Hans: DeepSeek V3.1
+  en_US: DeepSeek V3.1
 model_type: llm
 features:
   - multi-tool-call
@@ -10,7 +10,7 @@ features:
   - structured-output
 model_properties:
   mode: chat
-  context_size: 32000
+  context_size: 163840
 parameter_rules:
   - name: temperature
     use_template: temperature

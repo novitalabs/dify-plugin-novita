@@ -14,7 +14,7 @@ meta:
     entrypoint: main
     language: python
     version: '3.10'
-  version: 0.0.5
+  version: 0.0.6
 name: novita
 plugins:
   models:
@@ -33,5 +33,5 @@ resource:
     tool:
       enabled: true
 type: plugin
-version: 0.0.5
+version: 0.0.6
 privacy: https://novita.ai/legal/privacy-policy
