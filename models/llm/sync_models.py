@@ -245,7 +245,8 @@ def sync_yaml_files(yaml_dir: str):
                 print(f"✅ No changes needed for {filename}")
         else:
             # Create new file
-            new_filename = "-".join(model_id.split("/")[1:]) + ".yaml"
+            parts = model_id.split("/")
+            new_filename = "-".join(parts[1:]) + ".yaml" if len(parts) > 1 else model_id + ".yaml"
             new_file_path = os.path.join(yaml_dir, new_filename)
 
             # Create new YAML data
