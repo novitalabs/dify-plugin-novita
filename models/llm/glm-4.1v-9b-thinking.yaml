@@ -5,7 +5,6 @@ label:
 model_type: llm
 features:
   - agent-thought
-  - vision
 model_properties:
   mode: chat
   context_size: 65536
@@ -36,7 +35,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.00035'
-  output: '0.00138'
+  input: '0.00028'
+  output: '0.001104'
   unit: '0.0001'
   currency: CNY

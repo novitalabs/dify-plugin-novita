@@ -5,10 +5,9 @@ label:
 model_type: llm
 features:
   - agent-thought
-  - multi-tool-call
-  - structured-output
   - tool-call
   - stream-tool-call
+  - multi-tool-call
 model_properties:
   mode: chat
   context_size: 131072
@@ -39,7 +38,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.003'
-  output: '0.03'
+  input: '0.0024'
+  output: '0.024'
   unit: '0.0001'
   currency: CNY

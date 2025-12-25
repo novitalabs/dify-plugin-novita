@@ -7,7 +7,7 @@ features:
   - structured-output
 model_properties:
   mode: chat
-  context_size: 64000
+  context_size: 32768
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -35,7 +35,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.0015'
-  output: '0.0015'
+  input: '0.0012'
+  output: '0.0012'
   unit: '0.0001'
   currency: CNY

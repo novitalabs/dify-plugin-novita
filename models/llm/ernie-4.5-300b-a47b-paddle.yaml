@@ -4,11 +4,8 @@ label:
   en_US: ERNIE 4.5 300B A47B
 model_type: llm
 features:
-  - agent-thought
-  - multi-tool-call
   - structured-output
-  - tool-call
-  - stream-tool-call
+  - agent-thought
 model_properties:
   mode: chat
   context_size: 123000
@@ -39,7 +36,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.0028'
-  output: '0.011'
+  input: '0.00224'
+  output: '0.0088'
   unit: '0.0001'
   currency: CNY

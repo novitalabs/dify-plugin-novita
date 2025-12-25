@@ -1,15 +1,12 @@
-model: baidu/ernie-4.5-0.3b
+model: zai-org/autoglm-phone-9b-multilingual
 label:
-  zh_Hans: ERNIE 4.5 0.3B
-  en_US: ERNIE 4.5 0.3B
+  zh_Hans: AutoGLM-Phone-9B-Multilingual
+  en_US: AutoGLM-Phone-9B-Multilingual
 model_type: llm
-features:
-  - multi-tool-call
-  - stream-tool-call
-  - tool-call
+features: []
 model_properties:
   mode: chat
-  context_size: 120000
+  context_size: 65536
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -37,7 +34,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0'
-  output: '0'
+  input: '0.00035'
+  output: '0.00138'
   unit: '0.0001'
   currency: CNY

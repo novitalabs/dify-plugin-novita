@@ -38,7 +38,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.0057'
-  output: '0.023'
+  input: '0.00456'
+  output: '0.0184'
   unit: '0.0001'
   currency: CNY

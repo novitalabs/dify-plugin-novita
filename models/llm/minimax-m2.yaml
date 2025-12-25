@@ -1,13 +1,15 @@
-model: deepseek/deepseek-r1-distill-llama-8b
+model: minimax/minimax-m2
 label:
-  zh_Hans: DeepSeek R1 Distill Llama 8B
-  en_US: DeepSeek R1 Distill Llama 8B
+  zh_Hans: MiniMax-M2
+  en_US: MiniMax-M2
 model_type: llm
 features:
-  - structured-output
+  - tool-call
+  - stream-tool-call
+  - multi-tool-call
 model_properties:
   mode: chat
-  context_size: 32000
+  context_size: 204800
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -35,7 +37,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.0004'
-  output: '0.0004'
+  input: '0.003'
+  output: '0.012'
   unit: '0.0001'
   currency: CNY

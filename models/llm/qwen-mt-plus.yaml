@@ -1,12 +1,12 @@
-model: qwen/qwen3-30b-a3b-fp8
+model: qwen/qwen-mt-plus
 label:
-  zh_Hans: Qwen3 30B A3B
-  en_US: Qwen3 30B A3B
+  zh_Hans: Qwen MT Plus
+  en_US: Qwen MT Plus
 model_type: llm
 features: []
 model_properties:
   mode: chat
-  context_size: 40960
+  context_size: 16384
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -34,7 +34,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.00072'
-  output: '0.0036'
+  input: '0.002'
+  output: '0.006'
   unit: '0.0001'
   currency: CNY

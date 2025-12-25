@@ -3,11 +3,7 @@ label:
   zh_Hans: Llama 4 Scout Instruct
   en_US: Llama 4 Scout Instruct
 model_type: llm
-features:
-  - multi-tool-call
-  - stream-tool-call
-  - tool-call
-  - vision
+features: []
 model_properties:
   mode: chat
   context_size: 131072
@@ -38,7 +34,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.001'
-  output: '0.005'
+  input: '0.0008'
+  output: '0.004'
   unit: '0.0001'
   currency: CNY

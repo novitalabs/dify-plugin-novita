@@ -1,12 +1,17 @@
-model: qwen/qwen3-30b-a3b-fp8
+model: qwen/qwen3-next-80b-a3b-thinking
 label:
-  zh_Hans: Qwen3 30B A3B
-  en_US: Qwen3 30B A3B
+  zh_Hans: Qwen3 Next 80B A3B Thinking
+  en_US: Qwen3 Next 80B A3B Thinking
 model_type: llm
-features: []
+features:
+  - agent-thought
+  - structured-output
+  - tool-call
+  - stream-tool-call
+  - multi-tool-call
 model_properties:
   mode: chat
-  context_size: 40960
+  context_size: 131072
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -34,7 +39,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.00072'
-  output: '0.0036'
+  input: '0.0012'
+  output: '0.012'
   unit: '0.0001'
   currency: CNY

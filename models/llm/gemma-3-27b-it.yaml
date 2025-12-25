@@ -3,12 +3,10 @@ label:
   zh_Hans: Gemma 3 27B
   en_US: Gemma 3 27B
 model_type: llm
-features:
-  - structured-output
-  - vision
+features: []
 model_properties:
   mode: chat
-  context_size: 32000
+  context_size: 98304
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -36,7 +34,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.00119'
-  output: '0.002'
+  input: '0.000952'
+  output: '0.0016'
   unit: '0.0001'
   currency: CNY

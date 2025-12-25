@@ -4,10 +4,9 @@ label:
   en_US: ERNIE 4.5 VL 28B A3B
 model_type: llm
 features:
-  - multi-tool-call
-  - stream-tool-call
   - tool-call
-  - vision
+  - stream-tool-call
+  - multi-tool-call
 model_properties:
   mode: chat
   context_size: 30000
@@ -38,7 +37,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.0014'
-  output: '0.0056'
+  input: '0.00112'
+  output: '0.00448'
   unit: '0.0001'
   currency: CNY

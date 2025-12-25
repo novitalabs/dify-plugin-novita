@@ -4,10 +4,7 @@ label:
   en_US: Sao10k L3 8B Lunaris
 model_type: llm
 features:
-  - multi-tool-call
   - structured-output
-  - stream-tool-call
-  - tool-call
 model_properties:
   mode: chat
   context_size: 8192

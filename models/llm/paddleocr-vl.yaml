@@ -1,13 +1,12 @@
-model: cognitivecomputations/dolphin-mixtral-8x22b
+model: paddlepaddle/paddleocr-vl
 label:
-  zh_Hans: Dolphin Mixtral 8x22B
-  en_US: Dolphin Mixtral 8x22B
+  zh_Hans: PaddleOCR-VL
+  en_US: PaddleOCR-VL
 model_type: llm
-features:
-  - structured-output
+features: []
 model_properties:
   mode: chat
-  context_size: 16000
+  context_size: 16384
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -35,7 +34,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.009'
-  output: '0.009'
+  input: '0.00016'
+  output: '0.00016'
   unit: '0.0001'
   currency: CNY

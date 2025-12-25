@@ -1,12 +1,16 @@
-model: mistralai/mistral-7b-instruct
+model: zai-org/glm-4.6
 label:
-  zh_Hans: Mistral 7B Instruct
-  en_US: Mistral 7B Instruct
+  zh_Hans: GLM 4.6
+  en_US: GLM 4.6
 model_type: llm
-features: []
+features:
+  - structured-output
+  - tool-call
+  - stream-tool-call
+  - multi-tool-call
 model_properties:
   mode: chat
-  context_size: 32768
+  context_size: 204800
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -34,7 +38,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.00029'
-  output: '0.00059'
+  input: '0.0044'
+  output: '0.0176'
   unit: '0.0001'
   currency: CNY
