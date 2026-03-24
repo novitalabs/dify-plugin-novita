@@ -7,7 +7,6 @@ features:
   - multi-tool-call
   - stream-tool-call
   - tool-call
-  - structured-output
 model_properties:
   mode: chat
   context_size: 131072
@@ -38,7 +37,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.00456'
-  output: '0.0184'
+  input: '0.0057'
+  output: '0.023'
   unit: '0.0001'
   currency: CNY

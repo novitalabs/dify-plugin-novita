@@ -1,12 +1,16 @@
-model: baichuan/baichuan-m2-32b
+model: qwen/qwen3.5-35b-a3b
 label:
-  zh_Hans: BaiChuan M2 32B
-  en_US: BaiChuan M2 32B
+  zh_Hans: Qwen3.5-35B-A3B
+  en_US: Qwen3.5-35B-A3B
 model_type: llm
-features: []
+features:
+  - multi-tool-call
+  - stream-tool-call
+  - tool-call
+  - structured-output
 model_properties:
   mode: chat
-  context_size: 131072
+  context_size: 262144
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -34,7 +38,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.0007'
-  output: '0.0007'
+  input: '0.0025'
+  output: '0.02'
   unit: '0.0001'
   currency: CNY

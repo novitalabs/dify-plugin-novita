@@ -1,12 +1,16 @@
-model: baichuan/baichuan-m2-32b
+model: minimax/minimax-m2.7
 label:
-  zh_Hans: BaiChuan M2 32B
-  en_US: BaiChuan M2 32B
+  zh_Hans: MiniMax M2.7
+  en_US: MiniMax M2.7
 model_type: llm
-features: []
+features:
+  - multi-tool-call
+  - stream-tool-call
+  - tool-call
+  - structured-output
 model_properties:
   mode: chat
-  context_size: 131072
+  context_size: 204800
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -34,7 +38,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.0007'
-  output: '0.0007'
+  input: '0.003'
+  output: '0.012'
   unit: '0.0001'
   currency: CNY

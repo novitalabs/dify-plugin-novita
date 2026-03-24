@@ -3,8 +3,7 @@ label:
   zh_Hans: Gemma3 12B
   en_US: Gemma3 12B
 model_type: llm
-features:
-  - structured-output
+features: []
 model_properties:
   mode: chat
   context_size: 131072
@@ -35,7 +34,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.0004'
-  output: '0.0008'
+  input: '0.0005'
+  output: '0.001'
   unit: '0.0001'
   currency: CNY

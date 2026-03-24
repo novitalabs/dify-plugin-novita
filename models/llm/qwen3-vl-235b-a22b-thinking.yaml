@@ -4,6 +4,9 @@ label:
   en_US: Qwen3 VL 235B A22B Thinking
 model_type: llm
 features:
+  - multi-tool-call
+  - stream-tool-call
+  - tool-call
   - agent-thought
 model_properties:
   mode: chat
@@ -35,7 +38,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.00784'
-  output: '0.0316'
+  input: '0.0098'
+  output: '0.0395'
   unit: '0.0001'
   currency: CNY
