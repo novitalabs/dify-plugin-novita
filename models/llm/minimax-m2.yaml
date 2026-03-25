@@ -4,9 +4,10 @@ label:
   en_US: MiniMax-M2
 model_type: llm
 features:
-  - tool-call
+  - structured-output
   - stream-tool-call
   - multi-tool-call
+  - tool-call
 model_properties:
   mode: chat
   context_size: 204800

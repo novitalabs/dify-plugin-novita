@@ -4,8 +4,9 @@ label:
   en_US: DeepSeek V3 (Turbo)
 model_type: llm
 features:
-  - multi-tool-call
+  - structured-output
   - stream-tool-call
+  - multi-tool-call
   - tool-call
 model_properties:
   mode: chat
