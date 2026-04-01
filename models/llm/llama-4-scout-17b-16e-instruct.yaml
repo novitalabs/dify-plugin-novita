@@ -3,7 +3,8 @@ label:
   zh_Hans: Llama 4 Scout Instruct
   en_US: Llama 4 Scout Instruct
 model_type: llm
-features: []
+features:
+  - structured-output
 model_properties:
   mode: chat
   context_size: 131072

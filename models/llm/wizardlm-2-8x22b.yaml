@@ -3,7 +3,8 @@ label:
   zh_Hans: Wizardlm 2 8x22B
   en_US: Wizardlm 2 8x22B
 model_type: llm
-features: []
+features:
+  - structured-output
 model_properties:
   mode: chat
   context_size: 65535
