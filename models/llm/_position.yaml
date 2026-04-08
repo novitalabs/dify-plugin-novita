@@ -1,5 +1,6 @@
 # Zai-Org Models
 - zai-org/glm-4.7-flash
+- zai-org/glm-5.1
 - zai-org/glm-5
 - zai-org/glm-4.7
 - zai-org/autoglm-phone-9b-multilingual
@@ -25,6 +26,12 @@
 - deepseek/deepseek-prover-v2-671b
 - deepseek/deepseek-v3-turbo
 - deepseek/deepseek-r1-turbo
+
+# Google Models
+- google/gemma-4-26b-a4b-it
+- google/gemma-4-31b-it
+- google/gemma-3-12b-it
+- google/gemma-3-27b-it
 
 # Minimax Models
 - minimax/minimax-m2.7
@@ -90,10 +97,6 @@
 - meta-llama/llama-4-maverick-17b-128e-instruct-fp8
 - meta-llama/llama-4-scout-17b-16e-instruct
 - meta-llama/llama-3.2-3b-instruct
-
-# Google Models
-- google/gemma-3-12b-it
-- google/gemma-3-27b-it
 
 # Mistralai Models
 - mistralai/mistral-nemo

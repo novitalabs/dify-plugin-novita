@@ -3,8 +3,7 @@ label:
   zh_Hans: DeepSeek R1 Distill LLama 70B
   en_US: DeepSeek R1 Distill LLama 70B
 model_type: llm
-features:
-  - structured-output
+features: []
 model_properties:
   mode: chat
   context_size: 8192
