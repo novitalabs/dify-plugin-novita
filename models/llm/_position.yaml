@@ -27,6 +27,13 @@
 - deepseek/deepseek-v3-turbo
 - deepseek/deepseek-r1-turbo
 
+# Moonshotai Models
+- moonshotai/kimi-k2.6
+- moonshotai/kimi-k2.5
+- moonshotai/kimi-k2-thinking
+- moonshotai/kimi-k2-0905
+- moonshotai/kimi-k2-instruct
+
 # Google Models
 - google/gemma-4-26b-a4b-it
 - google/gemma-4-31b-it
@@ -69,12 +76,6 @@
 - qwen/qwen3-8b-fp8
 - qwen/qwen3-4b-fp8
 - qwen/qwen2.5-7b-instruct
-
-# Moonshotai Models
-- moonshotai/kimi-k2.5
-- moonshotai/kimi-k2-thinking
-- moonshotai/kimi-k2-0905
-- moonshotai/kimi-k2-instruct
 
 # Xiaomimimo Models
 - xiaomimimo/mimo-v2-flash
@@ -131,3 +132,6 @@
 
 # Gryphe Models
 - gryphe/mythomax-l2-13b
+
+# Elephant Models
+- elephant
