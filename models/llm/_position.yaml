@@ -12,6 +12,8 @@
 
 # Deepseek Models
 - deepseek/deepseek-v3.2
+- deepseek/deepseek-v4-flash
+- deepseek/deepseek-v4-pro
 - deepseek/deepseek-ocr-2
 - deepseek/deepseek-v3.2-exp
 - deepseek/deepseek-ocr
@@ -27,27 +29,8 @@
 - deepseek/deepseek-v3-turbo
 - deepseek/deepseek-r1-turbo
 
-# Moonshotai Models
-- moonshotai/kimi-k2.6
-- moonshotai/kimi-k2.5
-- moonshotai/kimi-k2-thinking
-- moonshotai/kimi-k2-0905
-- moonshotai/kimi-k2-instruct
-
-# Google Models
-- google/gemma-4-26b-a4b-it
-- google/gemma-4-31b-it
-- google/gemma-3-12b-it
-- google/gemma-3-27b-it
-
-# Minimax Models
-- minimax/minimax-m2.7
-- minimax/minimax-m2.5-highspeed
-- minimax/minimax-m2.5
-- minimax/minimax-m2.1
-- minimax/minimax-m2
-
 # Qwen Models
+- qwen/qwen3.6-27b
 - qwen/qwen3.5-27b
 - qwen/qwen3.5-122b-a10b
 - qwen/qwen3.5-35b-a3b
@@ -76,6 +59,26 @@
 - qwen/qwen3-8b-fp8
 - qwen/qwen3-4b-fp8
 - qwen/qwen2.5-7b-instruct
+
+# Moonshotai Models
+- moonshotai/kimi-k2.6
+- moonshotai/kimi-k2.5
+- moonshotai/kimi-k2-thinking
+- moonshotai/kimi-k2-0905
+- moonshotai/kimi-k2-instruct
+
+# Google Models
+- google/gemma-4-26b-a4b-it
+- google/gemma-4-31b-it
+- google/gemma-3-12b-it
+- google/gemma-3-27b-it
+
+# Minimax Models
+- minimax/minimax-m2.7
+- minimax/minimax-m2.5-highspeed
+- minimax/minimax-m2.5
+- minimax/minimax-m2.1
+- minimax/minimax-m2
 
 # Xiaomimimo Models
 - xiaomimimo/mimo-v2-flash
@@ -132,6 +135,9 @@
 
 # Gryphe Models
 - gryphe/mythomax-l2-13b
+
+# Inclusionai Models
+- inclusionai/ling-2.6-1t
 
 # Elephant Models
 - elephant
