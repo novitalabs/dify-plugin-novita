@@ -1,7 +1,7 @@
-model: zai-org/glm-5.1
+model: inclusionai/ring-2.6-1t
 label:
-  zh_Hans: GLM-5.1
-  en_US: GLM-5.1
+  zh_Hans: Ring-2.6-1T
+  en_US: Ring-2.6-1T
 model_type: llm
 features:
   - multi-tool-call
@@ -10,7 +10,7 @@ features:
   - structured-output
 model_properties:
   mode: chat
-  context_size: 204800
+  context_size: 262144
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -38,7 +38,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.0138'
-  output: '0.044'
+  input: '0'
+  output: '0'
   unit: '0.0001'
   currency: CNY
