@@ -1,12 +1,12 @@
-model: inclusionai/ring-2.6-1t
+model: qwen/qwen3.6-35b-a3b
 label:
-  zh_Hans: Ring-2.6-1T
-  en_US: Ring-2.6-1T
+  zh_Hans: Qwen3.6-35B-A3B
+  en_US: Qwen3.6-35B-A3B
 model_type: llm
 features:
   - multi-tool-call
-  - stream-tool-call
   - tool-call
+  - stream-tool-call
   - structured-output
 model_properties:
   mode: chat
@@ -38,7 +38,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.003'
-  output: '0.025'
+  input: '0.00248'
+  output: '0.01485'
   unit: '0.0001'
   currency: CNY
