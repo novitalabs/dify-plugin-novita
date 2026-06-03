@@ -1,16 +1,12 @@
-model: xiaomimimo/mimo-v2-flash
+model: qwen/qwen-2-7b-instruct
 label:
-  zh_Hans: XiaomiMiMo/MiMo-V2-Flash
-  en_US: XiaomiMiMo/MiMo-V2-Flash
+  zh_Hans: Qwen 2 7B Instruct
+  en_US: Qwen 2 7B Instruct
 model_type: llm
-features:
-  - structured-output
-  - stream-tool-call
-  - multi-tool-call
-  - tool-call
+features: []
 model_properties:
   mode: chat
-  context_size: 262144
+  context_size: 32768
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -38,7 +34,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.0011'
-  output: '0.0033'
+  input: '0.00054'
+  output: '0.00054'
   unit: '0.0001'
   currency: CNY
