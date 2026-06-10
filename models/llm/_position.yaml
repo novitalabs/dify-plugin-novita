@@ -121,6 +121,9 @@
 # Kwaipilot Models
 - kwaipilot/kat-coder-pro
 
+# Nex-Agi Models
+- nex-agi/nex-n2-pro
+
 # Openai Models
 - openai/gpt-oss-120b
 - openai/gpt-oss-20b
@@ -167,6 +170,9 @@
 
 # Gryphe Models
 - gryphe/mythomax-l2-13b
+
+# Nvidia Models
+- nvidia/nemotron-3-nano-30b-a3b
 
 # Inclusionai Models
 - inclusionai/ring-2.6-1t
