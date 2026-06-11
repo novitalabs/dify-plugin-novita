@@ -121,6 +121,9 @@
 # Kwaipilot Models
 - kwaipilot/kat-coder-pro
 
+# Nex-Agi Models
+- nex-agi/nex-n2-pro
+
 # Openai Models
 - openai/gpt-oss-120b
 - openai/gpt-oss-20b
@@ -168,6 +171,9 @@
 # Gryphe Models
 - gryphe/mythomax-l2-13b
 
+# Nvidia Models
+- nvidia/nemotron-3-nano-30b-a3b
+
 # Inclusionai Models
 - inclusionai/ring-2.6-1t
 - inclusionai/ling-2.6-flash
@@ -175,15 +181,6 @@
 
 # Elephant Models
 - elephant
-
-# Ai_Infer_Test_3 Models
-- ai_infer_test_3
-
-# Ai_Infer_Test_2 Models
-- ai_infer_test_2
-
-# Ai_Infer_Test_1 Models
-- ai_infer_test_1
 
 # Dev Models
 - dev/glm46

@@ -1,16 +1,16 @@
-model: ai_infer_test_3
+model: nex-agi/nex-n2-pro
 label:
-  zh_Hans: ai_infer_test_3
-  en_US: ai_infer_test_3
+  zh_Hans: Nex-N2-Pro
+  en_US: Nex-N2-Pro
 model_type: llm
 features:
-  - multi-tool-call
-  - stream-tool-call
-  - tool-call
   - structured-output
+  - tool-call
+  - stream-tool-call
+  - multi-tool-call
 model_properties:
   mode: chat
-  context_size: 200000
+  context_size: 262144
 parameter_rules:
   - name: temperature
     use_template: temperature
