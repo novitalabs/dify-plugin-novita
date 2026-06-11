@@ -1,16 +1,15 @@
-model: xiaomimimo/mimo-v2-flash
+model: deepseek/deepseek_v3
 label:
-  zh_Hans: XiaomiMiMo/MiMo-V2-Flash
-  en_US: XiaomiMiMo/MiMo-V2-Flash
+  zh_Hans: DeepSeek V3
+  en_US: DeepSeek V3
 model_type: llm
 features:
-  - structured-output
-  - stream-tool-call
   - multi-tool-call
+  - stream-tool-call
   - tool-call
 model_properties:
   mode: chat
-  context_size: 262144
+  context_size: 64000
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -38,7 +37,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.0011'
-  output: '0.0033'
+  input: '0.0089'
+  output: '0.0089'
   unit: '0.0001'
   currency: CNY

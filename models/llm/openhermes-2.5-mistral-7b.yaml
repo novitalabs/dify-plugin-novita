@@ -1,16 +1,12 @@
-model: xiaomimimo/mimo-v2-flash
+model: teknium/openhermes-2.5-mistral-7b
 label:
-  zh_Hans: XiaomiMiMo/MiMo-V2-Flash
-  en_US: XiaomiMiMo/MiMo-V2-Flash
+  zh_Hans: Openhermes2.5 Mistral 7B
+  en_US: Openhermes2.5 Mistral 7B
 model_type: llm
-features:
-  - structured-output
-  - stream-tool-call
-  - multi-tool-call
-  - tool-call
+features: []
 model_properties:
   mode: chat
-  context_size: 262144
+  context_size: 4096
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -38,7 +34,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.0011'
-  output: '0.0033'
+  input: '0.0017'
+  output: '0.0017'
   unit: '0.0001'
   currency: CNY

@@ -1,16 +1,12 @@
-model: xiaomimimo/mimo-v2-flash
+model: minimax/m2-her
 label:
-  zh_Hans: XiaomiMiMo/MiMo-V2-Flash
-  en_US: XiaomiMiMo/MiMo-V2-Flash
+  zh_Hans: M2-her
+  en_US: M2-her
 model_type: llm
-features:
-  - structured-output
-  - stream-tool-call
-  - multi-tool-call
-  - tool-call
+features: []
 model_properties:
   mode: chat
-  context_size: 262144
+  context_size: 32000
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -38,7 +34,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.0011'
-  output: '0.0033'
+  input: '0'
+  output: '0'
   unit: '0.0001'
   currency: CNY
