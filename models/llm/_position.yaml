@@ -1,3 +1,28 @@
+# Zai-Org Models
+- zai-org/glm-5.2
+- zai-org/glm-5.1
+- zai-org/glm-5v-turbo
+- zai-org/glm-5-turbo
+- zai-org/glm-5
+- zai-org/glm-4.7-h
+- zai-org/glm-4.7-flash
+- zai-org/glm-4.7
+- zai-org/autoglm-phone-9b-multilingual
+- zai-org/glm-4.6v
+- zai-org/glm-4.6
+- zai-org/glm-ocr
+- zai-org/glm-4.5
+- zai-org/glm-4.5v
+- zai-org/glm-4.5-air
+
+# Moonshotai Models
+- moonshotai/kimi-k2.7-code
+- moonshotai/kimi-k2.6
+- moonshotai/kimi-k2.5
+- moonshotai/kimi-k2-thinking
+- moonshotai/kimi-k2-0905
+- moonshotai/kimi-k2-instruct
+
 # Minimax Models
 - minimax/minimax-m3
 - minimax/minimax-m2.7-highspeed
@@ -30,6 +55,12 @@
 - deepseek/deepseek-r1-turbo
 - deepseek/deepseek-v3/community
 - deepseek/deepseek-r1/community
+
+# Stepfun Models
+- stepfun/step-3.7-flash
+
+# Nvidia Models
+- nvidia/nemotron-3-nano-30b-a3b
 
 # Baidu Models
 - baidu/cobuddy
@@ -83,31 +114,8 @@
 - qwen/qwen-2-vl-72b-instruct
 - qwen/qwen-2-7b-instruct
 
-# Moonshotai Models
-- moonshotai/kimi-k2.6
-- moonshotai/kimi-k2.5
-- moonshotai/kimi-k2-thinking
-- moonshotai/kimi-k2-0905
-- moonshotai/kimi-k2-instruct
-
 # Bunny Models
 - bunny
-
-# Zai-Org Models
-- zai-org/glm-5.1
-- zai-org/glm-5v-turbo
-- zai-org/glm-5-turbo
-- zai-org/glm-5
-- zai-org/glm-4.7-h
-- zai-org/glm-4.7-flash
-- zai-org/glm-4.7
-- zai-org/autoglm-phone-9b-multilingual
-- zai-org/glm-4.6v
-- zai-org/glm-4.6
-- zai-org/glm-ocr
-- zai-org/glm-4.5
-- zai-org/glm-4.5v
-- zai-org/glm-4.5-air
 
 # Google Models
 - google/gemma-4-26b-a4b-it
@@ -170,9 +178,6 @@
 
 # Gryphe Models
 - gryphe/mythomax-l2-13b
-
-# Nvidia Models
-- nvidia/nemotron-3-nano-30b-a3b
 
 # Inclusionai Models
 - inclusionai/ring-2.6-1t
