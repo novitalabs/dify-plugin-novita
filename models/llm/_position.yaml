@@ -1,3 +1,6 @@
+# Tencent Models
+- tencent/hy3
+
 # Zai-Org Models
 - zai-org/glm-5.2
 - zai-org/glm-5.1
@@ -177,6 +180,21 @@
 
 # Gryphe Models
 - gryphe/mythomax-l2-13b
+
+# Gemini-3.1-Flash-Lite-Image Models
+- gemini-3.1-flash-lite-image
+
+# Gemini-3.1-Flash-Image Models
+- gemini-3.1-flash-image
+
+# Gemini-3-Pro-Image Models
+- gemini-3-pro-image
+
+# Gemini-2.5-Flash-Image Models
+- gemini-2.5-flash-image
+
+# Gpt-Image-2 Models
+- gpt-image-2
 
 # Inclusionai Models
 - inclusionai/ring-2.6-1t
