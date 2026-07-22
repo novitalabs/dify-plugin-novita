@@ -182,9 +182,6 @@
 # Gryphe Models
 - gryphe/mythomax-l2-13b
 
-# Gpt-Image-2-Oai Models
-- gpt-image-2-oai
-
 # Inclusionai Models
 - inclusionai/ring-2.6-1t
 - inclusionai/ling-2.6-flash
