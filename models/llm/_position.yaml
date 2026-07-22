@@ -1,3 +1,15 @@
+# Moonshotai Models
+- moonshotai/kimi-k3
+- moonshotai/kimi-k2.7-code
+- moonshotai/kimi-k2.6
+- moonshotai/kimi-k2.5
+- moonshotai/kimi-k2-thinking
+- moonshotai/kimi-k2-0905
+- moonshotai/kimi-k2-instruct
+
+# Tencent Models
+- tencent/hy3
+
 # Zai-Org Models
 - zai-org/glm-5.2
 - zai-org/glm-5.1
@@ -13,14 +25,6 @@
 - zai-org/glm-4.5
 - zai-org/glm-4.5v
 - zai-org/glm-4.5-air
-
-# Moonshotai Models
-- moonshotai/kimi-k2.7-code
-- moonshotai/kimi-k2.6
-- moonshotai/kimi-k2.5
-- moonshotai/kimi-k2-thinking
-- moonshotai/kimi-k2-0905
-- moonshotai/kimi-k2-instruct
 
 # Minimax Models
 - minimax/minimax-m3
@@ -177,6 +181,9 @@
 
 # Gryphe Models
 - gryphe/mythomax-l2-13b
+
+# Gpt-Image-2-Oai Models
+- gpt-image-2-oai
 
 # Inclusionai Models
 - inclusionai/ring-2.6-1t
