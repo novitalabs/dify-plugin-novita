@@ -1,3 +1,12 @@
+# Moonshotai Models
+- moonshotai/kimi-k3
+- moonshotai/kimi-k2.7-code
+- moonshotai/kimi-k2.6
+- moonshotai/kimi-k2.5
+- moonshotai/kimi-k2-thinking
+- moonshotai/kimi-k2-0905
+- moonshotai/kimi-k2-instruct
+
 # Tencent Models
 - tencent/hy3
 
@@ -17,13 +26,9 @@
 - zai-org/glm-4.5v
 - zai-org/glm-4.5-air
 
-# Moonshotai Models
-- moonshotai/kimi-k2.7-code
-- moonshotai/kimi-k2.6
-- moonshotai/kimi-k2.5
-- moonshotai/kimi-k2-thinking
-- moonshotai/kimi-k2-0905
-- moonshotai/kimi-k2-instruct
+# Mindai Models
+- mindai/macaron-v1-venti
+- mindai/macaron-v1-tall
 
 # Minimax Models
 - minimax/minimax-m3
@@ -36,8 +41,8 @@
 - minimax/m2-her
 
 # Deepseek Models
-- deepseek/deepseek-v4-pro
 - deepseek/deepseek-v4-flash
+- deepseek/deepseek-v4-pro
 - deepseek/deepseek-v3.2
 - deepseek/deepseek-ocr-2
 - deepseek/deepseek-v3.2-exp
@@ -57,6 +62,12 @@
 - deepseek/deepseek-r1-turbo
 - deepseek/deepseek-v3/community
 - deepseek/deepseek-r1/community
+
+# Inclusionai Models
+- inclusionai/ling-3.0-flash
+- inclusionai/ring-2.6-1t
+- inclusionai/ling-2.6-flash
+- inclusionai/ling-2.6-1t
 
 # Stepfun Models
 - stepfun/step-3.7-flash
@@ -180,11 +191,6 @@
 
 # Gryphe Models
 - gryphe/mythomax-l2-13b
-
-# Inclusionai Models
-- inclusionai/ring-2.6-1t
-- inclusionai/ling-2.6-flash
-- inclusionai/ling-2.6-1t
 
 # Elephant Models
 - elephant
