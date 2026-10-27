@@ -1,7 +1,7 @@
 model: paddlepaddle/paddleocr-vl
 label:
-  zh_Hans: PaddleOCR-VL
-  en_US: PaddleOCR-VL
+  zh_Hans: PaddleOCR VL
+  en_US: PaddleOCR VL
 model_type: llm
 features: []
 model_properties:
