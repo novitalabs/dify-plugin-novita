@@ -1,7 +1,7 @@
 model: inclusionai/ling-3.0-flash
 label:
-  zh_Hans: Ling-3.0-flash
-  en_US: Ling-3.0-flash
+  zh_Hans: Ling 3.0 Flash
+  en_US: Ling 3.0 Flash
 model_type: llm
 features:
   - stream-tool-call
@@ -37,7 +37,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0'
-  output: '0'
+  input: '0.0006'
+  output: '0.0018'
   unit: '0.0001'
   currency: CNY

@@ -1,7 +1,7 @@
 model: baichuan/baichuan-m2-32b
 label:
-  zh_Hans: BaiChuan M2 32B
-  en_US: BaiChuan M2 32B
+  zh_Hans: Baichuan M2 32B
+  en_US: Baichuan M2 32B
 model_type: llm
 features: []
 model_properties:

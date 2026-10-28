@@ -1,7 +1,7 @@
 model: microsoft/wizardlm-2-8x22b
 label:
-  zh_Hans: Wizardlm 2 8x22B
-  en_US: Wizardlm 2 8x22B
+  zh_Hans: WizardLM 2 8x22B
+  en_US: WizardLM 2 8x22B
 model_type: llm
 features:
   - structured-output
