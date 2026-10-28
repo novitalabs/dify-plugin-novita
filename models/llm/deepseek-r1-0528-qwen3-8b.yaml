@@ -1,7 +1,7 @@
 model: deepseek/deepseek-r1-0528-qwen3-8b
 label:
-  zh_Hans: DeepSeek R1 0528 Qwen3 8B
-  en_US: DeepSeek R1 0528 Qwen3 8B
+  zh_Hans: DeepSeek R1 Distill Qwen3 8B 0528
+  en_US: DeepSeek R1 Distill Qwen3 8B 0528
 model_type: llm
 features: []
 model_properties:

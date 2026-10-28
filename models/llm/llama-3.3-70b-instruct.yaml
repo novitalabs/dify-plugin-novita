@@ -10,7 +10,7 @@ features:
   - structured-output
 model_properties:
   mode: chat
-  context_size: 6000
+  context_size: 12288
 parameter_rules:
   - name: temperature
     use_template: temperature

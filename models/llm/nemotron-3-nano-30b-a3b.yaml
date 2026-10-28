@@ -1,7 +1,7 @@
 model: nvidia/nemotron-3-nano-30b-a3b
 label:
-  zh_Hans: Nemotron 3 Nano 30B A3B
-  en_US: Nemotron 3 Nano 30B A3B
+  zh_Hans: NVIDIA Nemotron 3 Nano 30B A3B
+  en_US: NVIDIA Nemotron 3 Nano 30B A3B
 model_type: llm
 features:
   - structured-output

@@ -1,7 +1,7 @@
 model: deepseek/deepseek-v4-pro
 label:
-  zh_Hans: Deepseek V4 Pro
-  en_US: Deepseek V4 Pro
+  zh_Hans: DeepSeek V4 Pro
+  en_US: DeepSeek V4 Pro
 model_type: llm
 features:
   - stream-tool-call
